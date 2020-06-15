@@ -1,0 +1,163 @@
+<!DOCTYPE html> <!-- WEBDAK WEBSITE SOLUTIONS webdak.net -->
+<html lang="sr-RS">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="">
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+		<title>ECSTATIKA</title>
+	
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<script src="contact/contactform.js"></script>
+	<link href="contact/contactform.php" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script>
+		function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+	</script>
+	
+	
+</head>
+			<div w3-include-html="header.html"></div>
+	
+			<div w3-include-html="mobile-nav.html"></div>
+	
+<body>
+
+	<div class="vesti-cover">
+		
+			<img src="img/vesti/cover.jpg" class="vesti-cover-img" alt="vesti-cover">
+			<img src="img/vesti/cover-mobile.jpg" class="vesti-cover-img-mobile" alt="vesti-cover">
+
+			<a href="#" class="vesti-cover-button button">PROCITAJ VISE<span>&emsp;&emsp;&emsp;&emsp;</span></a>
+		
+		<div class="vesti-cover-text">
+		
+			<h1>Luksuzan zivot u srcu starog grada</h1>
+			
+			<h6>Inspirisan nekadašnjim industrijskim delom grada, stambeno-poslovni kompleks Sedma Avenija predstavlja jedinstveni spoj sofisticirane moderne arhitekture i istorijskih elemenata s kraja 19. veka. </h6>
+			
+			<p>Poput svetskih metropola Njujorka i Londona, Avenija čuva duh starog dela grada i kroz jedinstveni arhitektonski koncept reflektuje inspiraciju i kreativnost urbanog dela Beograda.</p>
+		
+		</div>
+
+	</div>
+
+
+
+<!-- CALL TO ACTION ------------------------->
+	
+	<div w3-include-html="call-to-action.html"></div>
+
+	<div class="vesti-box">
+		
+		<div class="vesti">
+		
+			<img src="img/vesti/vesti-img1.png" class="vesti-big-img" alt="vesti-img">
+			<a href="vest-single.html"><img src="img/vesti/vesti-read-more.png" class="vesti-small-img" alt="vesti-img"></a>
+			
+			<div class="vesti-text">
+			
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, mollitia.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, dolor mollitia laborum quidem in pariatur ab cumque non, autem voluptatum ea aliquam quo, voluptates perspiciatis dolore magnam commodi distinctio dolorem est inventore dolorum, corrupti at officia facilis! Cumque, quae, perspiciatis.</p>
+			
+			</div>
+		
+		</div>
+		
+		<div class="vesti">
+		
+			<img src="img/vesti/vesti-img1.png" class="vesti-big-img" alt="vesti-img">
+			<a href="vest-single.html"><img src="img/vesti/vesti-read-more.png" class="vesti-small-img" alt="vesti-img"></a>
+			
+			<div class="vesti-text">
+			
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, mollitia.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, dolor mollitia laborum quidem in pariatur ab cumque non, autem voluptatum ea aliquam quo, voluptates perspiciatis dolore magnam commodi distinctio dolorem est inventore dolorum, corrupti at officia facilis! Cumque, quae, perspiciatis.</p>
+			
+			</div>
+		
+		</div>
+		
+		<div class="vesti">
+		
+			<img src="img/vesti/vesti-img2.png" class="vesti-big-img" alt="vesti-img">
+			<a href="vest-single.html"><img src="img/vesti/vesti-read-more.png" class="vesti-small-img" alt="vesti-img"></a>
+			
+			<div class="vesti-text">
+			
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, mollitia.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, dolor mollitia laborum quidem in pariatur ab cumque non, autem voluptatum ea aliquam quo, voluptates perspiciatis dolore magnam commodi distinctio dolorem est inventore dolorum, corrupti at officia facilis! Cumque, quae, perspiciatis.</p>
+			
+			</div>
+		
+		</div>
+		
+		<div class="vesti">
+		
+			<img src="img/vesti/vesti-img3.png" class="vesti-big-img" alt="vesti-img">
+			<a href="vest-single.html"><img src="img/vesti/vesti-read-more.png" class="vesti-small-img" alt="vesti-img"></a>
+			
+			<div class="vesti-text">
+			
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, mollitia.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, dolor mollitia laborum quidem in pariatur ab cumque non, autem voluptatum ea aliquam quo, voluptates perspiciatis dolore magnam commodi distinctio dolorem est inventore dolorum, corrupti at officia facilis! Cumque, quae, perspiciatis.</p>
+			
+			</div>
+		
+		</div>
+		
+		<div class="vesti">
+		
+			<img src="img/vesti/vesti-img4.png" class="vesti-big-img" alt="vesti-img">
+			<a href="vest-single.html"><img src="img/vesti/vesti-read-more.png" class="vesti-small-img" alt="vesti-img"></a>
+			
+			<div class="vesti-text">
+			
+				<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, mollitia.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, dolor mollitia laborum quidem in pariatur ab cumque non, autem voluptatum ea aliquam quo, voluptates perspiciatis dolore magnam commodi distinctio dolorem est inventore dolorum, corrupti at officia facilis! Cumque, quae, perspiciatis.</p>
+			
+			</div>
+		
+		</div>
+		
+
+	</div>
+
+<div w3-include-html="footer.html"></div>
+	
+	<script>
+		includeHTML();
+	</script>
+	
+</body>
+</html>

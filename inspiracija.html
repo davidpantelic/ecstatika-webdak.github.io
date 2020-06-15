@@ -1,0 +1,128 @@
+<!DOCTYPE html> <!-- WEBDAK WEBSITE SOLUTIONS webdak.net -->
+<html lang="sr-RS">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="">
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+		<title>ECSTATIKA</title>
+	
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<script src="contact/contactform.js"></script>
+	<link href="contact/contactform.php" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script>
+		function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+	</script>
+	
+	
+</head>
+			<div w3-include-html="header.html"></div>
+	
+			<div w3-include-html="mobile-nav.html"></div>
+	
+<body>
+
+
+	<div class="inspiracija">
+
+		<img src="img/inspiracija/inspiracija1.jpg" class="inspiracija-big-img" alt="inspiracija-img">
+		<img src="img/inspiracija/inspiracija1-mob.jpg" class="inspiracija-big-img-mob" alt="inspiracija-img">
+		<a href="#" class="inspiracija-small-img button">PROCITAJ VISE<span>&emsp;&emsp;&emsp;&emsp;</span></a>
+		
+		<div class="inspiracija-text-levo">
+		
+			<h1>Luksuzan zivot u srcu starog grada</h1>
+			<h5>Inspirisan nekadašnjim industrijskim delom grada, stambeno-poslovni kompleks Sedma Avenija predstavlja jedinstveni spoj sofisticirane moderne arhitekture i istorijskih elemenata s kraja 19. veka. </h5>
+			<p>Poput svetskih metropola Njujorka i Londona, Avenija čuva duh starog dela grada i kroz jedinstveni arhitektonski koncept reflektuje inspiraciju i kreativnost urbanog dela Beograda.</p>
+		
+		</div>
+
+	</div>
+
+<div class="inspiracija">
+
+		<img src="img/inspiracija/inspiracija2.jpg" class="inspiracija-big-img" alt="inspiracija-img">
+	    <img src="img/inspiracija/inspiracija2-mob.jpg" class="inspiracija-big-img-mob" alt="inspiracija-img">
+		<a href="#" class="inspiracija-small-img button">PROCITAJ VISE<span>&emsp;&emsp;&emsp;&emsp;</span></a>
+		
+		<div class="inspiracija-text-desno">
+		
+			<h1>Luksuzan zivot u srcu starog grada</h1>
+			<h5>Inspirisan nekadašnjim industrijskim delom grada, stambeno-poslovni kompleks Sedma Avenija predstavlja jedinstveni spoj sofisticirane moderne arhitekture i istorijskih elemenata s kraja 19. veka. </h5>
+			<p>Poput svetskih metropola Njujorka i Londona, Avenija čuva duh starog dela grada i kroz jedinstveni arhitektonski koncept reflektuje inspiraciju i kreativnost urbanog dela Beograda.</p>
+		
+		</div>
+
+	</div>
+
+<div class="inspiracija">
+
+		<img src="img/inspiracija/inspiracija3.jpg" class="inspiracija-big-img" alt="inspiracija-img">
+		<img src="img/inspiracija/inspiracija3-mob.jpg" class="inspiracija-big-img-mob" alt="inspiracija-img">
+		<a href="#" class="inspiracija-small-img button">PROCITAJ VISE<span>&emsp;&emsp;&emsp;&emsp;</span></a>
+		
+		<div class="inspiracija-text-levo">
+		
+			<h1>Luksuzan zivot u srcu starog grada</h1>
+			<h5>Inspirisan nekadašnjim industrijskim delom grada, stambeno-poslovni kompleks Sedma Avenija predstavlja jedinstveni spoj sofisticirane moderne arhitekture i istorijskih elemenata s kraja 19. veka. </h5>
+			<p>Poput svetskih metropola Njujorka i Londona, Avenija čuva duh starog dela grada i kroz jedinstveni arhitektonski koncept reflektuje inspiraciju i kreativnost urbanog dela Beograda.</p>
+		
+		</div>
+
+	</div>
+
+<div class="inspiracija">
+
+		<img src="img/inspiracija/inspiracija4.jpg" class="inspiracija-big-img" alt="inspiracija-img">
+		<img src="img/inspiracija/inspiracija4-mob.jpg" class="inspiracija-big-img-mob" alt="inspiracija-img">
+		<a href="#" class="inspiracija-small-img button">PROCITAJ VISE<span>&emsp;&emsp;&emsp;&emsp;</span></a>
+		
+		<div class="inspiracija-text-desno">
+		
+			<h1>Luksuzan zivot u srcu starog grada</h1>
+			<h5>Inspirisan nekadašnjim industrijskim delom grada, stambeno-poslovni kompleks Sedma Avenija predstavlja jedinstveni spoj sofisticirane moderne arhitekture i istorijskih elemenata s kraja 19. veka. </h5>
+			<p>Poput svetskih metropola Njujorka i Londona, Avenija čuva duh starog dela grada i kroz jedinstveni arhitektonski koncept reflektuje inspiraciju i kreativnost urbanog dela Beograda.</p>
+		
+		</div>
+
+	</div>
+
+<div w3-include-html="footer.html"></div>
+	
+	<script>
+		includeHTML();
+	</script>
+	
+</body>
+</html>

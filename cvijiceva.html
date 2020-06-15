@@ -1,0 +1,258 @@
+<!DOCTYPE html> <!-- WEBDAK WEBSITE SOLUTIONS webdak.net -->
+<html lang="sr-RS">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="">
+	<meta name="Description" content="">
+	<meta name="Keywords" content="">
+		<title>ECSTATIKA</title>
+	
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	<script src="contact/contactform.js"></script>
+	<link href="contact/contactform.php" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="css/media-queries.css" rel="stylesheet">
+	<script src="test.js"></script>
+	<script src="js/skripta.js"></script>
+	<style>
+    
+        #bootstrap-overrides .nav ul li ul {top: 80%;padding-top: 40px;}
+        #bootstrap-overrides .nav ul li ul a {margin-top: -20px;}
+        
+    </style>
+	
+	<script>
+		function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+	</script>
+	
+	
+</head>
+			<div id="cvijiceva" w3-include-html="header.html"></div>
+	
+			<div w3-include-html="mobile-nav.html"></div>
+	
+<body id="bootstrap-overrides">
+
+<!-- PROJEKTI 1. DEO ------------------------->
+
+
+	<div class="projekti1">
+		
+		<div class="projekti1-text">
+		
+			<h1>Cvijiceva 1</h1>
+			<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias, maiores fugit, voluptatibus enim ipsa.</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores assumenda quisquam, molestias at voluptates est, nisi sequi aperiam! Vel saepe, harum. Maiores veritatis porro eum aliquam ex. Saepe, cumque!</p>
+		
+		</div>
+		
+		<img src="img/projekti/Cvijiceva 1.jpg" alt="cvijiceva1" class="cvijiceva">
+ 
+		<a href="#" download class="lista-projekti1"><img src="img/stanovi/katalog.png" alt="katalog-stanova"></a>
+		
+		<a href="#" class="infograf-projekti1"><img src="img/projekti/Progress infograph.png" alt="progres-button"></a>
+		
+		
+		<div class="buttons-projekti1">
+			<a href="#"><img src="img/projekti/Button A - VIDEO.png" alt="video"></a>
+			<a href="#"><img src="img/projekti/Button A - Izaberi stil.png" alt="izaberi-stil"></a>
+		</div>
+	
+	</div>
+
+<!-- PROJEKTI ICO ------------------------->
+
+	<div class="projekti-ico">
+	
+		<img src="img/projekti/projekti-ico.png" alt="ico">
+		
+	</div>
+
+
+<!-- PROJEKTI 2. DEO ------------------------->
+
+	<div class="projekti2">
+
+		<div class="projekti2-text">
+		
+			<h1>Izvanredni i luksuzni stanovi prefinjenog dizajna, skrojeni prema vasem ukusu</h1>
+			
+			<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, iste. ipsum dolor sit amet, consectetur adipisicing elit. Pariatur possimus obcaecati nulla error ipsa sapiente ex nesciunt, amet debitis! Laborum iusto, dolore doloremque pariatur velit! Nam velit tempora accusantium laborum.</h4>
+			
+			<h3>Osigurajte svoje mesto na vreme<a href="#" class="rez-stan-mob"><img src="img/projekti/Rezervisi-stan.png" alt="rezervisite-stan-button"></a></h3>
+			
+		</div>
+		
+		
+		<div class="projekti2-slika">
+		
+			<img src="img/projekti/projekti2-img.jpg" alt="stan">
+		
+		</div>
+		
+		<a href="#" class="rez-stan button r-button">RESERVISI STAN<span>&emsp;&emsp;&emsp;&emsp;</span></a>
+		
+		<div class="projekti2-stanovi">
+		
+		    <div id="pop-up-1">
+                <a href="stanovi/jednoiposobni-1.html">Tip 1</a>
+                <a href="stanovi/jednoiposobni-2.html">Tip 2</a>
+                <a href="stanovi/jednoiposobni-3.html">Tip 3</a>
+                <a href="stanovi/jednoiposobni-4.html">Tip 4</a>
+                <a href="stanovi/jednoiposobni-5.html">Tip 5</a>
+		    </div>
+           
+           <div id="pop-up-2">
+                <a href="stanovi/dvoiposobni-1.html">Tip 1</a>
+                <a href="stanovi/dvoiposobni-2.html">Tip 2</a>
+                <a href="stanovi/dvoiposobni-3.html">Tip 3</a>
+		    </div>
+           
+           <div id="pop-up-3">
+                <a href="stanovi/trosobni-1.html">Tip 1</a>
+                <a href="stanovi/trosobni-2.html">Tip 2</a>
+		    </div>
+           
+           <div id="pop-up-4">
+                <a href="stanovi/cetvorosobni-1.html">Tip 1</a>
+                <a href="stanovi/cetvorosobni-2.html">Tip 2</a>
+		    </div>
+            
+			<img id="tipstana1" onclick="tipstana1()" src="img/projekti/JEDNOSOBAN STAN.png" alt="jednosoban-stan">
+            <img id="tipstana2" onclick="tipstana2()" src="img/projekti/DVOSOBAN.png" alt="dvosoban-stan">
+			<img id="tipstana3" onclick="tipstana3()" src="img/projekti/TROSOBAN.png" alt="trosoban-stan">
+			<img id="tipstana4" onclick="tipstana4()" src="img/projekti/CETVOROSOBAN.png" alt="cetvorosoban-stan">
+		
+		</div>
+		
+	</div>
+
+<!-- PROJEKTI 3. DEO ------------------------->
+
+	<div class="projekti3">
+		
+		<div class="projekti3-box">
+
+			<h2>Izaberite savrsenu kvadraturu za Vas novi dom</h2>
+			<a class="projekti3-lista-stanova-button" download=""><img src="img/stanovi/katalog.png" alt="katalog-stanova-button"></a>
+			
+			<div class="stanovi-naslovi">
+				<h4>STANOVI</h4>
+				<h4 class="stanovi-naslovi-2">OSNOVA STANA</h4>
+				<h4 id="naslov-stana" class="stanovi-naslovi-3">JEDNOIPOSOBNI STAN - tip 1</h4>
+				<h4 class="stanovi-naslovi-4">m2</h4>
+				<br>
+				<hr>
+			</div>
+			
+			<div class="tabela-stanovi tabela-stanovi-levo">
+			
+				<table>
+					<tbody>
+					<tr>
+					<td id="rb4" class="rb">4</td>
+					<td id="stan4" class="tekst" onClick="tipovi4()">Cetvorosobni</td>
+					</tr>
+					<tr>
+					<td id="rb3" class="rb">3</td>
+					<td id="stan3" class="tekst" onClick="tipovi3()">Troiposobni</td>
+					</tr>
+					<tr>
+					<td id="rb2" class="rb">2</td>
+					<td id="stan2" class="tekst" onClick="tipovi2()">Dvoiposobni</td>
+					</tr>
+					<tr>
+					<td id="rb1" class="rb">1</td>
+					<td id="stan1" class="tekst" onClick="tipovi1()">Jednoiposobni</td>
+					</tr>
+					</tbody>
+					</table>
+			
+			</div>
+			
+				<div w3-include-html="img/stanovi/tipovi-stanova.html"></div>
+			
+				<div w3-include-html="img/stanovi/info-stan.html"></div>
+			
+		</div>
+	
+	</div>
+
+
+
+<!-- CALL TO ACTION ------------------------->
+
+	<div w3-include-html="call-to-action.html"></div>
+
+<!-- PROJEKTI 4. DEO ------------------------->
+
+	<div class="projekti4">
+		
+		
+		<div class="projekti4-text">
+		
+			<h1>Luksuzan zivot u srcu Starog grada</h1>
+			
+			<h4>Inspirisan nekadašnjim industrijskim delom grada, stambeno-poslovni kompleks Sedma Avenija predstavlja jedinstveni spoj sofisticirane moderne arhitekture i istorijskih elemenata s kraja 19. veka. </h4>
+			
+			<h5>Poput svetskih metropola Njujorka i Londona, Avenija čuva duh starog dela grada i kroz jedinstveni arhitektonski koncept reflektuje inspiraciju i kreativnost urbanog dela Beograda.</h5>
+			
+			<a href="#" class="rez-stan2 button">REZERVISI STAN<span>&emsp;&emsp;&emsp;</span></a>
+			
+			
+			<a href="#" class="brosura button">BROSURU<span>&emsp;&emsp;&emsp;</span></a>
+		
+		</div>
+		
+		<div class="projekti4-slike">
+		
+		    <img src="img/projekti/projekti4-img.png" alt="background">
+		
+		
+			<img src="img/projekti/projekti4-slike.jpg" alt="4slike">
+		
+		</div>
+
+		
+		    
+	</div>
+
+<div w3-include-html="footer.html"></div>
+	
+	<script>
+		includeHTML();
+        load();
+	</script>
+	
+	
+</body>
+</html>
